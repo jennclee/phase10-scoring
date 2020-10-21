@@ -1,0 +1,52 @@
+$red_color: red;
+$yellow_color: yellow;
+$green_color: green;
+$blue_color: blue;
+
+.App {
+	text-align: left;
+	margin: 60px;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.header-section {
+	text-align: center;
+}
+
+.card-section {
+	display: inline-flex;
+}
+
+.card {
+	width: 20px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+#red-card {
+	background-color: $red_color;
+}
+
+#blue-card {
+	background-color: $blue_color;
+}
+
+#yellow-card {
+	background-color: $yellow_color;
+}
+
+#green-card {
+	background-color: $green_color;
+}
